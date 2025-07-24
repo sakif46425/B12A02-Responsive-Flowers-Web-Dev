@@ -188,6 +188,7 @@ border: none;
      transform:translate(10px);
      text-transform:uppercase;
      cursor: pointer;
+     box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px 1px;
 
 }
 
@@ -364,7 +365,7 @@ input ::placeholder{
     
 }
 
-.footer-item{
+.footer-item, .deal-para{
     color: #6B7280;
     font-size: 16px;
     font-weight: 400px;
@@ -381,4 +382,151 @@ top: 0;
 .footer-icons-img:hover{
     transform: translateX(30px);
     cursor: pointer;
+}
+
+.deal-bg-container{
+
+width: 1140px;
+height: 423.13px;
+left: 150px;
+top: 3187.88px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 28;
+padding: 0px;
+
+
+    
+}
+
+.deal-header-title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.deal-para{
+    text-align: center;
+    position:static;
+    margin-top:20px ;
+}
+
+.deal-bg-container{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 30px;
+    margin: 120px 150px;
+    
+    
+    
+
+}
+
+.deal-bg-sector-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.deal-bg-1{
+background-image: url('./Images/deal-bloom.png');
+background-repeat: no-repeat;
+filter:var(rgba(0, 0, 0, 0.40));
+position: relative;
+width: 366px;
+height: 206px;
+top: -30px;
+margin: 116px 28px 25px 146px;
+border-radius: 14px;
+right: 400px;
+
+
+}
+
+
+.deal-bg-2{
+    background-image: url('./Images/deal-ana.png');
+    filter:var(rgba(0, 0, 0, 0.40));
+    position: relative;
+    width: 367px;
+    height: 197px;
+    top: -50px;
+    right: 400px;
+    margin: 25px 28px 120px 146px;
+    border-radius: 14px;
+}
+
+.deal-bg-sector-2{
+    background-image: url('./Images/deal-zabo.png');
+    filter:var(rgba(0, 0, 0, 0.40));
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 120px 150px 120px 0px;
+    width: 600px;
+    height: 430px;
+    left: 600px;
+    padding-top: 95px;
+    padding-bottom:10px ;
+    border-radius:22px ;
+    
+    
+    
+}
+
+.deal-price{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.shop-now{
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600px;
+    text-decoration: underline;
+
+    
+
+}
+
+
+.deal-price-big{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.shop-now-big{
+
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
 }

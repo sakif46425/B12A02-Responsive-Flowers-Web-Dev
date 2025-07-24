@@ -66,6 +66,12 @@
    column-gap: 20px;
 }
 
+a:hover{
+    color: blueviolet;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+
 .nav-item{
     gap: 5px;
 }
@@ -180,5 +186,61 @@ border: none;
 .card:hover{
      background-color:silver;
      transform:translate(10px);
+     text-transform:uppercase;
+     cursor: pointer;
 
+}
+
+.trusted-img{
+position: absolute;
+width: 286px;
+height: 286px;
+left: 570px;
+top: 1892px;
+}
+
+
+.plants-lover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.plants-lover-title{
+  
+position: static;
+width: 540px;
+height: 519px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20;
+padding: 0px;
+}
+
+.plant-lover-img, .store-img{
+    
+position: static;
+width: 540px;
+height: 597px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 60px;
+}
+
+.plants-lover-head-font{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+.plants-lover-font{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-weight: 400px;
 }

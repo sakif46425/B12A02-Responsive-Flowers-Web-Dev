@@ -23,7 +23,7 @@
 
 
 
-.nav-contain{
+.nav-containar{
 
     border: none;
     margin: 30px 150px 120px 150px;
@@ -56,19 +56,26 @@
 }
 
 .nav-items, a{
+    position: relative;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content:space-between;
     list-style: none;
     text-decoration: none;
-    gap: 20px;
+   column-gap: 20px;
 }
 
 .nav-item{
     gap: 5px;
 }
 
-.fas fa-shopping-cart{
-    left: 3px;
+#icon{
+    position: relative;
+    left: 20px;
 }
+
+
 .banner{
     display: flex;
     max-width: 1140px;
@@ -89,7 +96,7 @@ span{
   
 }
 
-section{
+.para{
     color: rgba(0, 0, 0, 0.50);
     font-size: 22;
     font-weight: 400;
@@ -99,5 +106,79 @@ section{
 .img-hero{
    border: none;
   
+
+}
+
+.Plants-containar{
+    justify-items: center;
+    max-width: 1140px;
+    max-height: 1185px;
+    margin: 120px 150px 211px 150px;
+    padding: 0px;
+    
+
+}
+
+.plants-header{
+    text-align: center;
+    justify-items: center;
+}
+
+
+
+.plants-para{
+    text-align: center;
+    
+}
+
+.plants-card{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+
+
+.card-title{
+    text-align: center;
+    font-size: 22;
+    font-weight: 500;
+    color: #111111;
+}
+
+.card-price{
+    text-align: center;
+    font-size: 22;
+    font-weight: bold;
+    color: #111111;
+}
+
+.btn{
+position: static;
+width: 270px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 26px 50px 26px 50px;
+background-color:rgb(233, 90, 8);
+color: white;
+font-size: 16;
+font-weight:600;
+border: none;
+}
+
+.btn:hover{
+    background-color: dodgerblue;
+    transform:translateX(10px)
+    
+}
+
+.card:hover{
+     background-color:silver;
+     transform:translate(10px);
 
 }

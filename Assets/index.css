@@ -568,24 +568,27 @@ right: 400px;
         display: none;
     }
 
-
+     .nav-containar{
+        display: flex;
+        justify-content: space-around;
+     }
 
      .nav-item-cart{
-        position: relative;
+        position: absolute;
         width: 113px;
         width: 24px;
+        margin-left: 200px;
 
-        left: 400px;
+       
 
        
     } 
 
     .img-logo{
         position: relative;
-        width: 63px;
-        height: 38px;
-        right: 130px;
+        margin-left: 200px;
         bottom: 8px;
+
     
     }
 
@@ -594,15 +597,15 @@ right: 400px;
         width: 393px;
         height: 245px;
         left: 280px;
-        top: 133px;
+        top: 800px;
 
     }
 
     .banner-header{
        position: absolute;
-       width: 361px;
-       height: 147px;
-       top: 510px;
+       width: 861px;
+       height: 547px;
+       top: 1210px;
        left: 16px;
        padding: 0px;
 
@@ -629,7 +632,7 @@ right: 400px;
   footer{
     width: 393px;
     height: 865px;
-    top: 3741px;
+    top: 5000px;
     left: 0px;
     padding: 0px;
    
@@ -642,7 +645,7 @@ right: 400px;
     height: 765px;
     left: 20px;
     padding: 0px;
-    top: 729px;
+    top: 3000px;
   }
 
   .footer-title-para{
@@ -668,7 +671,7 @@ right: 400px;
         
         left: 0px;
         padding: 0px;
-        top: 760px;
+        top: 3000px;
 
     }
 
@@ -681,7 +684,7 @@ right: 400px;
         height: 496px;
         right: 150px;
         bottom: 50px;
-        top: 729px;
+        top: 3000px;
 
     }
 
@@ -691,13 +694,13 @@ right: 400px;
         padding: 0px;
         bottom: 100px;
         right: 120px;
-        top: 729px;
+        top: 3000px;
        
     }
 
     .join{
         width: 900px;
-        top: 1500px;
+        top: 6000px;
 
           
     }
@@ -708,7 +711,7 @@ position: absolute;
 width: 393px;
 height: 117px;
 left: 170px;
-top: 2800px;
+top: 7200px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -725,6 +728,7 @@ height: 800px;
 left:430px;
 display: flex;
 flex-direction: column;
+top: 5000px;
 
     } 
 
@@ -732,6 +736,7 @@ flex-direction: column;
         position: relative;
         margin-right: 2200px;
         margin-bottom: 400px;
+        top: 2600px;
         
     }
 
@@ -741,6 +746,8 @@ flex-direction: column;
        width: 300px;
         height: 200px;
         margin-right: 300px;
+        top: 2500px;
+
 
         
 
@@ -752,14 +759,65 @@ flex-direction: column;
         width: 300px;
         height: 200px;
         margin-right: 300px;
+        top: 2500px;
        
        
         
     }
 
+    .plants-lover{
+        
+position: relative;
+width: 361px;
+height: 648px;
+left: 17px;
+top: 4200px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 18;
+padding: 0px;
 
 
+        
+    }
 
+ .store-img{
+position: relative;
+width: 358px;
+height: 396px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 18px 0px;
+top: 200px;
+ }
+
+ .trusted-img{
+    display: none;
+ }
+
+    .plants-card{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        top: 3000px;
+        left: 200px;
+        
+    }
+
+    .Plants-containar{
+        position: relative;
+    }
+
+    .plants-header{
+        position: relative;
+        top: 2800px;
+        text-align: center;
+        left: 150px;
+    }
 
   }
 

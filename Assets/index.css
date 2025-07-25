@@ -632,6 +632,7 @@ right: 400px;
     top: 3741px;
     left: 0px;
     padding: 0px;
+   
   }
 
   .footer-container{
@@ -639,9 +640,9 @@ right: 400px;
     flex-direction: column;
     width: 359px;
     height: 765px;
-    top: 50px;
     left: 20px;
     padding: 0px;
+    top: 729px;
   }
 
   .footer-title-para{
@@ -654,6 +655,8 @@ right: 400px;
   .img-logo{
     position: relative;
     right: 250px;
+    width: 180px;
+    height: 109px;
   }
 
     .footer-logo{
@@ -662,9 +665,10 @@ right: 400px;
         justify-content: start;
         width: 359px;
         height:173px;
-        top: 0px;
+        
         left: 0px;
         padding: 0px;
+        top: 760px;
 
     }
 
@@ -677,6 +681,8 @@ right: 400px;
         height: 496px;
         right: 150px;
         bottom: 50px;
+        top: 729px;
+
     }
 
     .footer-icons{
@@ -685,8 +691,74 @@ right: 400px;
         padding: 0px;
         bottom: 100px;
         right: 120px;
+        top: 729px;
        
     }
+
+    .join{
+        width: 900px;
+        top: 1500px;
+
+          
+    }
+
+    .deal-header{
+        
+position: absolute;
+width: 393px;
+height: 117px;
+left: 170px;
+top: 2800px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+padding: 0px;  
+
+    }
+
+   .deal-bg-container{
+        
+position: absolute;
+width: 500px;
+height: 800px;
+left:430px;
+display: flex;
+flex-direction: column;
+
+    } 
+
+ .deal-bg-sector-2{
+        position: relative;
+        margin-right: 2200px;
+        margin-bottom: 400px;
+        
+    }
+
+    .deal-bg-1{
+       position: relative;
+       margin-bottom: 300px;
+       width: 300px;
+        height: 200px;
+        margin-right: 300px;
+
+        
+
+    }
+
+    .deal-bg-2{
+        position: absolute;
+        margin-top: 400px;
+        width: 300px;
+        height: 200px;
+        margin-right: 300px;
+       
+       
+        
+    }
+
+
+
 
 
   }

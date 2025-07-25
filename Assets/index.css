@@ -3,7 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+*{
+   max-width:1440px;
+   max-height:4612px; 
 
+}
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -21,6 +25,9 @@
     "wdth" 100;
 }
 
+.img-logo{
+    filter: saturate(50);
+}
 
 
 .nav-containar{
@@ -70,6 +77,10 @@ a:hover{
     color: blueviolet;
     text-transform:uppercase;
     cursor: pointer;
+}
+
+h1,span:hover{
+    cursor:pointer;
 }
 
 .nav-item{
@@ -179,7 +190,9 @@ border: none;
 
 .btn:hover{
     background-color: dodgerblue;
-    transform:translateX(10px)
+    transform:translateX(10px);
+    cursor: pointer;
+    
     
 }
 
@@ -250,7 +263,8 @@ margin: 0px 60px;
 
 background: url('./Images/news-letter-bg.png');
 background-repeat:no-repeat;
-background-size: cover;
+background-size: 100%;
+background-position: 100%;
 position: relative;
 margin-top: 120px;
 margin-bottom: 50px;
@@ -413,6 +427,9 @@ padding: 0px;
     text-align: center;
     position:static;
     margin-top:20px ;
+   font-size: 22px;
+   font-weight: 400px;
+   color: rgba(0, 0, 0, 0.50);
 }
 
 .deal-bg-container{
@@ -437,13 +454,13 @@ padding: 0px;
 }
 
 .deal-bg-1{
-background-image: url('./Images/deal-bloom.png');
+background-image: linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Images/deal-bloom.png');
 background-repeat: no-repeat;
-filter:var(rgba(0, 0, 0, 0.40));
+filter:var(rgba(0, 0, 0, 0.8)) brightness(-40);
 position: relative;
 width: 366px;
-height: 206px;
-top: -30px;
+height: 190px;
+top: -0px;
 margin: 116px 28px 25px 146px;
 border-radius: 14px;
 right: 400px;
@@ -453,28 +470,26 @@ right: 400px;
 
 
 .deal-bg-2{
-    background-image: url('./Images/deal-ana.png');
-    filter:var(rgba(0, 0, 0, 0.40));
+    background-image:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url('./Images/deal-ana.png');
     position: relative;
     width: 367px;
-    height: 197px;
-    top: -50px;
+    height: 190px;
+    top: -20px;
     right: 400px;
     margin: 25px 28px 120px 146px;
     border-radius: 14px;
 }
 
 .deal-bg-sector-2{
-    background-image: url('./Images/deal-zabo.png');
-    filter:var(rgba(0, 0, 0, 0.40));
+    background-image: linear-gradient(rgba(0,0,0,0.5)),url('./Images/deal-zabo.png');
+    filter:var(rgba(0, 0, 0, 0.8)) ;
     background-repeat: no-repeat;
     position: absolute;
-    margin: 120px 150px 120px 0px;
     width: 600px;
-    height: 430px;
+    height: 315px;
     left: 600px;
-    padding-top: 95px;
-    padding-bottom:10px ;
+    margin-top: -15px;
+    padding-top: 100px;
     border-radius:22px ;
     
     
@@ -544,3 +559,11 @@ right: 400px;
   animation: spinInfinite 5s linear infinite;
 }
 
+
+
+
+@media screen and (max-width: 430px) {
+
+
+    
+}

@@ -574,8 +574,8 @@ right: 400px;
         position: relative;
         width: 113px;
         width: 24px;
-        bottom: 20px;
-        left: 30px;
+
+        left: 400px;
 
        
     } 
@@ -585,9 +585,43 @@ right: 400px;
         width: 63px;
         height: 38px;
         right: 130px;
-        bottom: 19px;
+        bottom: 8px;
     
-       
+    }
+
+    .img-hero{
+        position: absolute;
+        width: 393px;
+        height: 245px;
+        left: 280px;
+        top: 133px;
+
+    }
+
+    .banner-header{
+       position: absolute;
+       width: 361px;
+       height: 147px;
+       top: 510px;
+       left: 16px;
+       padding: 0px;
+
+    }
+
+    .bh{
+        width: 361px;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
+
+    .para{
+        width: 360px;
+        height: 68px;
+        top: 79px;
+        left: 0px;
+        padding: 0px;
 
     }
 
